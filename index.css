@@ -15,6 +15,7 @@ body {
     border-radius: 10px;
     box-shadow: 100px 100px 300px rgba(0, 0, 0, 0.1);
     width: 300px;
+    box-shadow: 200px 30px 15px rgba(0, 0, 0, 0.1);
 }
 
 .display {
@@ -41,7 +42,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .button {
@@ -52,10 +53,18 @@ body {
     font-size: 1.5em;
     padding: 20px;
     transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s;
 }
 
 .button:hover {
     background-color: #e0e0e0;
+}
+
+.button:active {
+    transform: scale(0.95);
 }
 
 .buttons__zero {
